@@ -1,4 +1,4 @@
-{  "name": "KCTracker",
+{  "name": "kctracker",
   "version": "1.0.0",
   "description": "A workout tracker utilizing MongoDB and Mongoose along with Express for routing.",
   "main": "server.js",
