@@ -13,10 +13,9 @@ app.use(express.static("public"));
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workoutTrackerdb", 
 { useNewUrlParser: true });
 
-
-
-  
+require("./routes/apiRoutes")(app);
+require("./routes/html")(app);
 
 app.listen(PORT, () => {
-    console.log(`App running on port ${PORT}!`);
-  });
+  console.log(`App running on port ${PORT}!`);
+});
