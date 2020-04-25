@@ -1,10 +1,11 @@
 # KCTracker
 
-An exercise app that tracks your chosen exercises on a weekly basis and logs them by day.  
 
+## Description: 
 
- ## Description: 
- This App utilizes MongoDB/Mongoose and uses Robo3T(open source-MongoDB GUI) along with Express for routing.
+A fitness app that allows the user to view, create, and track daily workouts. The user is able to log multiple exercises in a given day and also go back and update the workout. The user is able to track the name, type, weight, sets, reps and duration of each exercise. Cardiovascular exercises show the distance traveled in miles. 
+
+This App utilizes MongoDB/Mongoose and uses Robo3T(open source-MongoDB GUI) along with Express for routing.
 
  
  ## Table of Contents: 
