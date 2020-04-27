@@ -12,7 +12,7 @@ app.use(express.static("public"));
 
 
 
-const MONGODB_URI = "mongodb://WOT1:workout1@ds219095.mlab.com:19095/heroku_m3d40sjz" || "mongodb:/localhost/workoutTracker";
+const MONGODB_URI = "mongodb://WOT1:workout1@ds219095.mlab.com:19095/heroku_m3d40sjz" || "mongodb:/localhost/workoutTrackerdb";
 
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
 require("./routes/apiRoutes")(app);
