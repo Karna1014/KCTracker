@@ -3,7 +3,7 @@
   "description": "A workout tracker utilizing MongoDB and Mongoose along with Express for routing.",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mongoose": "^5.9.10"
   },
   "devDependencies": {},
